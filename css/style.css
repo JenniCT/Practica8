@@ -1,0 +1,152 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body
+{
+
+    position: relative;
+    background-color: #afd8fc;
+    font-family: 'Gill Sans MT';
+    width: 100%;
+
+}
+
+header
+{
+    background: url('/img/banner.jpg') center/cover;
+    
+    
+}
+
+header h1
+{
+
+    font-family: 'Berlin Sans FB';
+    font-size: 2.5em;
+    font-weight: normal;
+    color: white;
+
+}
+
+#titulo 
+{
+    display: inline-flex;
+}
+
+#logo, header h1
+{
+    display: inline-flex;
+    margin-bottom: 0px;
+    height:100px;
+}
+
+/*Menú de navegación*/
+
+nav
+{
+    display: block;
+    width: 100%;
+    height: 35px;
+    text-align: right;
+    background-color: #3c77a6;
+   opacity: 80%;
+
+    
+}
+
+nav ul
+{
+    list-style: none;
+    padding-top: 6px;
+}
+
+nav li
+{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a
+{
+    font-family:'Century Gothic';
+    font-size: 15px;
+    color: #ebebeb;
+    padding-bottom: 3px;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover
+{
+    color: #031319;
+    border-bottom: 2px solid #1a3955 ;
+}
+
+/*Contenido*/
+img
+{
+    width: 30%;
+    max-width: 50%; 
+    height: auto;
+}
+#perfil
+{
+    padding: 3px;
+    max-width: 30%; 
+    height: auto;
+}
+
+article
+{
+    padding: 10px;
+    display: flex;
+    width: 100%;
+}
+
+section{
+    padding: 15px;
+    width: 80%;
+}
+
+/*Perfil*/
+aside
+{
+
+    padding: 8px;
+    float: right;
+    width: 20%;
+    border: 2px solid;
+    margin: 10px; 
+    min-width: auto;
+    max-width: 60%;
+    height: 100%;
+    
+}
+
+aside h1, #alumnoperfil
+{
+    size: 3px;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+footer
+{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    background-color:  #1a3955;
+    color: #ebebeb;
+    text-align: center;
+    padding-top: 30px;
+    opacity: 80%;
+
+}
+
